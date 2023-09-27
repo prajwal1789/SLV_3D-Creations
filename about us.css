@@ -1,0 +1,18 @@
+.md-form {
+    color: black;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-content: center;
+}
+
+h4 {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.modal-body {
+    position: relative;
+    left: 490px;
+    width: 400px;
+}

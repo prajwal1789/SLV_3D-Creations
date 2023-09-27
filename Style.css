@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav ul li span a {
+    color: white;
+    display: inline-flex;
+    padding: 0 4vh;
+    border: 0px 2px;
+    font-size: x-large;
+    font-style: italic;
+    /* font-weight: bold; */
+    height: 12vh;
+    text-align: center;
+    text-shadow: 0.1 0.1 0.5 grey 0.1 0.1 0.5 darkgrey;
+    top: 9px;
+    position: relative;
+    text-decoration: none;
+
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a:hover {
+    color: red;
+    /* font-weight: bold; */
+}
+
+.navigation {
+    background-color: black;
+    display: block;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    height: 12vh;
+    width: 100vw;
+    z-index: 5;
+
+
+}
+
+.buttons {
+    background-color: black;
+    border: solid red 0.0095px;
+    position: relative;
+    left: 30vw;
+    bottom: 3vh;
+    height: 5vh;
+    width: 60vw;
+    display: inline-flex;
+
+
+}
+
+.circleBase {
+    border-radius: 50%;
+
+
+}
+
+
+.circle1 {
+    width: 70px;
+    height: 70px;
+    background: #4bc475;
+    border: 1px solid #000;
+    left: 50px;
+    position: relative;
+    background-image: url("Joker01.jpg");
+    height: 55px;
+    width: 55px;
+    background-size: 90% auto;
+    border: solid 2px red;
+    top: 30px;
+    animation: rotate 3s ease-in 4s infinite;
+}
+
+.footer {
+
+    background-color: darkgray;
+    font-size: x-large;
+    font-weight: normal;
+    width: 100vw;
+    height: 16vh;
+    position: relative;
+    display: inline-flex;
+}
+
+main {
+    color: chartreuse;
+    display: flex;
+    position: relative;
+    /* background-image: url("3D-Printed Skull.gif");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("3D-Printed Skull.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    height: 72vh;
+    width: 100vw;
+
+
+}
+
+.content {
+    display: inline-flex;
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+
+}
+
+.welcome h1 {
+
+    text-align: center;
+    color: darkblue;
+    text-shadow: 0.1 0.2 0.5 orange 0.1 0.2 0.5 pink;
+    position: relative;
+}
+
+.welcome {
+    position: relative;
+    display: block;
+    left: -250px;
+    top: 25px;
+    height: 50px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+@keyframes slide1 {
+    0% {
+        transform: translate(28vw);
+    }
+    
+    100% {
+        
+        transform: translate(-4vw);
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translate(30vw);
+    }
+    
+
+    50%{
+
+        transform: translate(10vw);
+    }
+
+    100% {
+        
+        transform: translate(-3.5vw);
+    }
+}
+
+
+.slider {
+    margin: 5px;
+    width: 610px;
+    height: 410px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid red;
+    top: 100px;
+    left: 15vw;
+    overflow: hidden;
+}
+
+#image1 {
+    
+    margin-right: 2px;
+    padding: 5px;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    transform: translate(28vw);
+    animation: slide1 5s ease-out 4s infinite forwards ;
+}
+
+#image2 {
+    margin-right: 2px;
+    padding: 5px;
+    
+    width: 600px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    transform: translate(30vw);
+    animation: slide2 5s ease-out 4s infinite forwards ;
+}
+
+#image3 {
+    margin-right: 2px;
+    padding: 5px;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    transform: translate(100vw);
+    /* animation: slide3 5s ease-out  4s infinite forwards ; */
+    
+}
+
+
+#slv {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    align-content: center;
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+
+
+
+.txtFooter {
+    position: relative;
+    left: 400px;
+    top: 20px;
+    width: 200px;
+    height: 50px;
+}

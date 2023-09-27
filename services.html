@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLV 3D Creations</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet for services tab" href="services.css">
+    <link rel="shortcut icon" href="2_favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="navigation">
+
+        <div class="circleBase circle1">
+
+        </div>
+
+        <div class="buttons">
+
+            <nav>
+                <ul>
+                    <li><span><a href="index.html">Home</a></span></li>
+                    <li><span><a href="/products">Products</a></span></li>
+                    <li><span><a href="services.html">Services</span></a></li>
+                    <li><span><a href="/videos">Videos</a></span></li>
+                    <li><span><a href="/blog">Blog</a></span></li>
+                    <li><span><a href="/about us">About Us</a></span></li>
+                    <!-- id="myBtn" -->
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <main>
+
+        <!-- Trigger/Open The Modal -->
+        <!-- <button id="myBtn">Open Modal</button> -->
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+                <form id="form" class="mx-auto my-5 shadow p-2" method="POST">
+                    <!-- action= will be set by javascript -->
+                    <div class="mb-1 d-flex">
+                        <label class="mx-3" for="customer">Name:</label>
+                        <input type="text" class="mx-3 form-control" id="Name" name="Name" />
+                    </div>
+
+                    <div class="mb-1 d-flex">
+                        <label class="mx-3" for="phone">Phone Number:</label>
+                        <input type="text" class="mx-3 form-control" id="phone" name="Phone Number" />
+
+                    </div>
+
+
+                    <div class="mb-1 d-flex">
+                        <label class="mx-3" for="email">Email:</label>
+                        <input type="text" class="mx-3 form-control" id="email" name="Email" /> 
+                    </div>
+
+                    <div class="mb-1 d-flex">
+                        <label class="mx-3" for="address">Address:</label>
+                        <input type="text" class="mx-3 form-control" id="address" name="Address" list="addresses" />
+
+                    </div>
+
+                    <div class="mb-1 d-flex">
+                        <label class="mx-3" for="type of service">Type of Service:</label>
+                        <input type="text" class="mx-3 form-control" id="type of service" name="Type of Service" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="services_modal.js"></script>
+    </main>
+
+
+    <div class="footer">
+
+        <p class="txtFooter" id="txtFooter">
+
+            This is the footer!!!!
+        </p>
+
+
+        <p class="Copyright" id="slv">
+            © Copyright, SLV 3D creations.</p>
+    </div>
+
+
+</body>
+
+</html>
